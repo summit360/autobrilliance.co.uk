@@ -1,0 +1,38 @@
+.ab-contact-band-text {
+  margin-left: 0;
+  padding: 16px;
+}
+
+.ab-contact-section {
+  position: relative;
+  background: url('/images/transparent.jpg') center top no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+  .ab-contact-band {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #37474f;
+  }
+
+  .ab-contact-band-text {
+    max-width: $section-max-width;
+    margin-left: 25%;
+    padding: 24px;
+    text-align: left;
+    color: white;
+  }
+
+    .ab-contact-band-text p {
+      padding-top: 8px;
+    }
+
+    /**** Mobile layout ****/
+    @media (max-width: 900px) {
+  .ab-contact-band-text {
+      margin-left: 5%;
+  }
+    }

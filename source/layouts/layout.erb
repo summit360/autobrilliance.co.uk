@@ -1,22 +1,119 @@
 <!doctype html>
 <html>
   <head>
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta charset="utf-8">
-    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Discover detailing with David and AutoBrilliance">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
 
     <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "Middleman" %></title>
+    <title><%= current_page.data.title || "Auto Brilliance" %></title>
 
     <!-- <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'> -->
     <link href="https://fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Nobile' rel='stylesheet' type='text/css'>
+    <!-- <link href='http://fonts.googleapis.com/css?family=Nobile:200,300,400,500' rel='stylesheet' type='text/css'> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+<link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.orange-indigo.min.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
     <%= stylesheet_link_tag :site %>
     <%= javascript_include_tag :all %>
+    <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<script type="text/javascript">
+    window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":"https://www.autobrilliance.co.uk/privacy.html","theme":"light-floating"};
+</script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.10/cookieconsent.min.js"></script>
+<!-- End Cookie Consent plugin -->
+
   </head>
 
   <body class="<%= page_classes %>">
-    <%= yield %>
+
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header ">
+          <header class="mdl-layout__header mdl-layout__header--waterfall ab-header ab-header-logo">
+              <div class="mdl-layout__header-row ab-logo-row">
+                  <span class="mdl-layout__title">
+                    <a href="/">
+                      <div class="ab-logo"></div>
+                      <span class="mdl-layout__title">Auto Brilliance</span>
+                    </a>
+                  </span>
+              </div>
+              <div class="mdl-layout__header-row ab-navigation-row mdl-layout--large-screen-only">
+                  <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+                      <a class="mdl-navigation__link" href="/#why">Why</a>
+                      <a class="mdl-navigation__link" href="/#pricing">Pricing</a>
+                      <a class="mdl-navigation__link" href="/#testimonial">Testimonial</a>
+                      <a class="mdl-navigation__link" href="/#contact">Contact</a>
+                  </nav>
+              </div>
+          </header>
+          <div class="mdl-layout__drawer mdl-layout--small-screen-only ab-drawer">
+            <span class="mdl-layout-title">
+          <img class="ab-logo-image" src="/images/logo.png">
+        </span>
+              <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+                <a class="mdl-navigation__link" href="/#why">Why</a>
+                <a class="mdl-navigation__link" href="/#pricing">Pricing</a>
+                <a class="mdl-navigation__link" href="/#testimonial">Testimonial</a>
+                <a class="mdl-navigation__link" href="/#contact">Contact</a>
+              </nav>
+          </div>
+          <main class="mdl-layout__content">
+            <a name="top"></a>
+
+              <%= yield %>
+
+            <footer class="ab-footer mdl-mega-footer">
+          <div class="mdl-mega-footer--top-section">
+            <div class="mdl-mega-footer--left-section">
+
+              <a class="mdl-mega-footer--social-btn btn btn-social-icon btn-linkedin"><i class="fa fa-linkedin"></i></a>
+              <a class="mdl-mega-footer--social-btn btn btn-social-icon btn-twitter"><i class="fa fa-twitter"></i></a>
+              <a class="mdl-mega-footer--social-btn btn btn-social-icon btn-facebook"><i class="fa fa-facebook"></i></a>
+              <a class="mdl-mega-footer--social-btn btn btn-social-icon btn-instagram"><i class="fa fa-instagram"></i></a>
+
+
+            </div>
+            <div class="mdl-mega-footer--right-section">
+              <a class="mdl-typography--font-light" href="#top">
+                Back to Top
+                <i class="material-icons">expand_less</i>
+              </a>
+            </div>
+          </div>
+
+          <div class="mdl-mega-footer--middle-section">
+            <p class="mdl-typography--font-light">
+              &nbsp;|&nbsp;
+              <a class="ab-link mdl-typography--font-light" href="/">Home</a>
+              &nbsp;|&nbsp;
+
+              <a class="ab-link mdl-typography--font-light" href="/privacy.html">Privacy Policy</a>
+              &nbsp;|&nbsp;
+              <a class="ab-link mdl-typography--font-light" href="http://www.summit360.co.uk">Web Site by Summit360</a>
+              &nbsp;|&nbsp;
+
+            <p class="mdl-typography--font-light">&copy; AutoBrilliance, Holmfirth 2016</p>
+          </div>
+
+          <div class="mdl-mega-footer--bottom-section">
+            Imagery: &copy; <a href="https://www.flickr.com/photos/chefranden/" target="_new">Beading ~ RandenPederson</a>
+            , <a href="https://www.flickr.com/photos/rvc/" target="_new">Offroad ~ Rafael Vianna Croffi</a>
+            under <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC License</a> &amp;
+            <a href="https://creativecommons.org/licenses/by/2.0/">CC Generic License</a>
+
+
+          </div>
+
+        </footer>
+          </main>
+
+    </div>
+
   </body>
+  <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+
+  <script src="https://use.fontawesome.com/05f1092628.js"></script>
 </html>

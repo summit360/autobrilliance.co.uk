@@ -1,0 +1,91 @@
+@import "sections/primary";
+@import "sections/why";
+@import "sections/contact";
+@import "sections/time";
+@import "sections/testimonial";
+@import "sections/plans";
+@import "card";
+
+  .ab-button {
+
+    background: $color-accent !important;
+    color: white !important;
+  }
+  .ab-fab {
+    position: absolute;
+    right: 20%;
+    bottom: -26px;
+    z-index: 3;
+    background: $color-accent !important;
+    color: white !important;
+  }
+
+
+
+
+
+
+
+
+  .ab-image-link {
+    text-decoration: none;
+  }
+
+
+  .ab-link {
+    text-decoration: none;
+    color: $color-primary !important;
+  }
+
+    .ab-link:hover {
+      color: $color-primary-dark !important;
+    }
+
+    .ab-link .material-icons {
+      position: relative;
+      top: -1px;
+      vertical-align: middle;
+    }
+
+  .ab-alt-link {
+    text-decoration: none;
+    color:  $color-primary !important;
+    font-size: 21px;
+  }
+
+    .ab-alt-link:hover {
+      color:  lighten($color-primary, 10%) !important;
+    }
+
+    .ab-alt-link .material-icons {
+      position: relative;
+      top: 6px;
+    }
+
+
+
+ // Generic Section Handlers
+  .ab-section {
+    padding: 80px 0;
+    max-width: $section-max-width;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .ab-section .ab-section-title {
+    margin-left: 12px;
+    padding-bottom: 24px;
+  }
+
+  .ab-link-menu:hover {
+    cursor: pointer;
+  }
+
+  @media (max-width: 900px) {
+    .ab-alt-link {
+      text-decoration: none;
+      color:  $color-primary !important;
+      font-size: 16px;
+    }
+
+  }

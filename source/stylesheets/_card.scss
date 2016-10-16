@@ -1,0 +1,59 @@
+//
+// CARD WORK
+//
+.ab-card-container {
+}
+
+.ab-card-container .ab-card {
+  margin: 8px auto;
+}
+.ab-card-container .mdl-card__media {
+  overflow: hidden;
+  background-color: $color-primary-dark;
+}
+
+.ab-card-container .mdl-card__media img {
+  width: 100%;
+}
+.ab-card-container .mdl-card__media {
+  min-height: 180px;
+  padding: 20px 5px 5px 10px;
+  color: white;
+}
+
+.ab-card-container .mdl-card__title {
+  background-color: $color-primary-contrast;
+  height: auto;
+}
+
+.ab-card-container .mdl-card__title-text {
+  color: white;
+  font-weight: bold;
+  height: auto;
+  text-align: center;
+}
+
+.ab-card-container .mdl-card__supporting-text {
+  height: auto;
+  color: black;
+  padding-bottom: 56px;
+}
+
+.ab-card-container .mdl-card__actions {
+  background-color: $color-primary-dark;
+  border-top: 1px solid rgba(255,255,255,0.2);
+  // position: absolute;
+  // bottom: 0;
+}
+
+.ab-card-container .mdl-card__actions a {
+  border-top: none;
+  font-size: 16px;
+}
+
+@media(max-width: 768px) {
+  .ab-card-container .mdl-card__media {
+    min-height: 200px;
+    padding-top: 10px;
+}
+}

@@ -1,0 +1,36 @@
+
+  .ab-time-section {
+    position: relative;
+    background: url('/images/dirty.jpg') center bottom no-repeat;
+    background-size: cover;
+    height: 800px;
+  }
+
+  .ab-time-band {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #37474f;
+  }
+
+  .ab-time-band-text {
+    max-width: 800px;
+    margin-left: 10%;
+    padding: 24px;
+    text-align: left;
+    color: white;
+  }
+
+    .ab-time-band-text p {
+      padding-top: 8px;
+    }
+
+    /**** Mobile layout ****/
+    @media (max-width: 900px) {
+
+    .ab-time-band-text {
+      margin-left: 0;
+      padding: 16px;
+    }
+}

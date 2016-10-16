@@ -1,53 +1,41 @@
 @charset "utf-8";
 @import "normalize";
 
+$color-primary: rgb(255,152,0);
+$color-primary-contrast: #f57c00;
+$color-primary-dark: #ef6c00;
+$color-accent: #448aff;
+
+
+$section-max-width: 600px;
+
+@import "header";
+@import "sections";
+@import "social-buttons";
+@import "footer";
+
+//
 body {
-  background: #333;
-  color: #fff;
-  text-align: center;
-  font-family: 'Nobile', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  // font-family: 'Nobile', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
-}
-
-.logo img {
-  max-width:400px !important;
-  height:auto;
-  display:block-inline;
-  margin-top: 6em;
-}
-
-
-
-h1 {
-
-  font-family: 'Corben', cursive; //"Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.8em;
-  font-weight: 400;
   margin: 0;
 }
-
-
-
-.welcome {
-  -webkit-animation-name: welcome;
-  -webkit-animation-duration: .9s;
+/* Disable ugly boxes around images in IE10 */
+a img{
+  border: 0px;
 }
 
-@-webkit-keyframes welcome {
-  from {
-    -webkit-transform: scale(0);
-    opacity: 0;
-  }
-  50% {
-   -webkit-transform: scale(0);
-   opacity: 0;
-  }
-  82.5% {
-    -webkit-transform: scale(1.03);
-    -webkit-animation-timing-function: ease-out;
-    opacity: 1;
-  }
-  to {
-    -webkit-transform: scale(1);
-  }
+::-moz-selection {
+  background-color: $color-primary;
+  color: #fff;
+}
+
+::selection {
+  background-color: $color-primary;
+  color: #fff;
+}
+
+.key-font {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.4;
 }

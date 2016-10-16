@@ -37,10 +37,17 @@ end
 # Build-specific configuration
 configure :build do
   # Minify CSS on build
-  # activate :minify_css
+  activate :minify_css
 
   # Minify Javascript on build
-  # activate :minify_javascript
+  activate :minify_javascript
+
+  activate :minify_html
+
+  activate :asset_hash
+
+  activate :gzip
+
 end
 
 activate :deploy do |deploy|

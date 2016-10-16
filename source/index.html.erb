@@ -1,13 +1,183 @@
 ---
 title: Welcome to AutoBrilliance
 ---
+<div class="ab-primary-section mdl-typography--text-center">
+  <div class="key-font ab-primary-slogan">Detailing. Protection. Customer Care.</div>
+  <div class="key-font ab-primary-sub-slogan">Welcome to AutoBrilliance, significantly improving the appearance of your car, using safe techniques, with proven results & long lasting protection.</div>
+  <div class="key-font ab-primary-offer">
+    <a class="mdl-typography--font-regular ab-primary-sub-slogan  ab-alt-link" href="#contact">
+      Winter is on it's way! Get in touch about a winter protection...&nbsp;<i class="material-icons">chevron_right</i>
+    </a>
 
-<div class="welcome">
-  <div class="logo">
-    <%= image_tag "autobrilliance-logo-car.png" %>
   </div>
-  <h1>AutoBrilliance</h1>
-  <h4>Automotive Detailing Specalist</h4>
-  <p>Work in progress</p>
 
-</div><!-- .welcome -->
+  <a href="#why">
+    <button class="ab-fab mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect" data-upgraded=",MaterialButton,MaterialRipple">
+      <i class="material-icons">expand_more</i>
+    <span class="mdl-button__ripple-container"><span class="mdl-ripple"></span></span></button>
+  </a>
+</div>
+<a name="why"></a>
+<div class="ab-why-section mdl-typography--text-center">
+  <div class="ab-why-section-text">
+
+  <div class="mdl-typography--font-light mdl-typography--display-1-color-contrast">Why Choose Auto Brilliance</div>
+  <p class="mdl-typography--font-light">
+    Committed to unrivaled customer care. Experience of new car preparation, paint correction and full restoration of the paintwork on any marque.
+
+  </p>
+  <p class="mdl-typography--font-light">
+    Based around Holmfirth in Yorshire, I provide automotive detailing services for individuals, professional and business.
+  </p>
+  <div class="mdl-grid">
+
+  <div class="mdl-cell">
+    <div class="mdl-typography--display-1-color-contrast">
+      <i class="fa fa-gift"></i><br/>
+      New Car Preparation
+
+    </div>
+
+  </div>
+  <div class="mdl-cell">
+    <div class="mdl-typography--display-1-color-contrast">
+      <i class="fa fa-adjust"></i><br/>
+      Paintwork Correction
+
+    </div>
+
+  </div>
+  <div class="mdl-cell mdl-cell--2-offset-tablet">
+    <div class="mdl-typography--display-1-color-contrast">
+      <i class="fa fa-diamond"></i><br/>
+      Paintwork Restoration
+
+    </div>
+  </div>
+
+  </div>
+
+
+  </div>
+
+
+</div>
+
+
+<div class="ab-time-section">
+  <div class="ab-time-band">
+    <div class="ab-time-band-text">
+      <div class="mdl-typography--display-2 mdl-typography--font-thin">Spend more time doing what you love</div>
+      <p class="mdl-typography--headline mdl-typography--font-thin">
+      Let me take the hassle of care away from you. Get in touch for a free vehicle assessment and to discuss your needs.
+      </p>
+      <p>
+        <a class="mdl-typography--font-regular  ab-alt-link" href="#contact">
+          Contact me now&nbsp;<i class="material-icons">chevron_right</i>
+        </a>
+      </p>
+    </div>
+  </div>
+</div>
+
+<a name="testimonial"></a>
+<div class="ab-testimonials-section">
+            <div class="ab-testimonials-section-text">
+              <div class="mdl-typography--font-light mdl-typography--display-1-color-contrast">Testimonials</div>
+              <p class="mdl-typography--font-light">
+                <i class="fa fa-quote-left"></i>
+                I can't thank David enough, my car looks fanstatic, like new! <br/>I'd planned on selling my car but having the car detailed by David made me fall in love with it again and gave it a new lease of life. I can't recommend David highly enough for his proffessionalism, passion and quality of service.<i class="fa fa-quote-right"></i>
+                <br>
+                <a href="http://www.vjw-holistics.co.uk" target="_new" class="ab-link mdl-typography--font-light">Vicky - VJW Holistic Therapies, Lindley, Huddersfield</a>
+              </p>
+              <p class="mdl-typography--font-light">
+                <i class="fa fa-quote-left"></i>
+                Simpy put, my feedback is "absolutely brilliant".<br/> I felt informed and involved in the process of deciding what was going to be done to our car and DAvid's suggestions were tailoered to my needs. I'm looking forward to getting the same done to our new car when it lands.
+                <i class="fa fa-quote-right"></i>
+                <br>
+                <a href="#" target="_new" class="ab-link mdl-typography--font-light">TBC</a>
+              </p>
+            </div>
+            <div class="ab-testimonials-section-image"></div>
+
+</div>
+
+
+<a name="pricing"></a>
+<div class="ab-plans-section">
+  <div class="ab-plans-section-text  mdl-typography--text-center">
+    <div class="mdl-typography--font-light  mdl-typography--display-1-color-contrast">Pricing for everyone</div>
+    <p class="mdl-typography--font-light">We can tailor a bespoke care package for your needs. Contact me to arrange a free vehicle assessment &amp; to discuss your needs. </p>
+    <div class="mdl-grid ab-card-container">
+
+      <% data.pricing.plans.each do |p| %>
+      <div class="mdl-cell mdl-card mdl-shadow--4dp ab-card">
+
+        <div class="mdl-card__title">
+          <h2 class="mdl-typography--text-center mdl-card__title-text "><%= p.title %></h2>
+        </div>
+        <div class="mdl-card__media">
+          <div class="mdl-typography--text-center mdl-typography--display-3 mdl-typography--font-thin">£<%= p.price %></div>
+          <p class="mdl-typography--headline mdl-typography--font-thin"><%= p.strapline %></p>
+        </div>
+
+        <div class="mdl-card__actions">
+
+          <a href="#contact">
+            <button class="ab-button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+              <i class="material-icons">call</i>
+            contact
+            </button>
+          </a>
+
+        </div>
+        <div class="mdl-card__supporting-text  mdl-typography--text-left">
+          <ul class="mdl-list">
+            <% p.jobs.each do |j| %>
+            <li class="mdl-list__item">
+              <span class="mdl-list__item-primary-content">
+                  <i class="material-icons mdl-list__item-icon"><%= j.icon %></i>
+                  <%= j.name %>
+                </span>
+            </li>
+            <% end %>
+          </ul>
+        </div>
+      </div>
+      <% end %>
+
+    </div>
+    <div class="mdl-typography--font-normal">A bespoke package can also be created and tailored to your car. Make contact now to discuss your specific requirements and book your free assessment.</div>
+  </div>
+
+
+</div>
+
+
+<a name="contact"></a>
+<div class="ab-contact-section mdl-typography--text-center">
+
+
+    <div class="ab-contact-band">
+      <div class="ab-contact-band-text">
+        <div class="mdl-typography--display-2 mdl-typography--font-thin">Contact Me - David Lock</div>
+        <p class="mdl-typography--headline mdl-typography--font-thin">
+        I'm available to take your call...
+        </p>
+        <p>
+          <a class="mdl-typography--font-regular ab-alt-link" href="tel:+447815814156">
+            Call me now on&nbsp;<i class="material-icons">chevron_right</i> 0781 581 4156
+          </a>
+        </p>
+        <p class="mdl-typography--headline mdl-typography--font-thin">
+        Or send me an email...
+        </p>
+        <p>
+          <a class="mdl-typography--font-regular  ab-alt-link" href="mailto:david@autobrilliance.co.uk">
+            e-mail me now&nbsp;<i class="material-icons">chevron_right</i> david@autobrilliance.co.uk
+          </a>
+        </p>
+      </div>
+    </div>
+
+</div>
