@@ -38,6 +38,11 @@ activate :google_analytics do |ga|
   ga.tracking_id = 'UA-1372057-11' # Replace with your property ID.
   ga.development = false
 end
+
+set :url_root, 'https://www.autobrilliance.co.uk'
+
+activate :search_engine_sitemap
+
 # Build-specific configuration
 configure :build do
   # Minify CSS on build

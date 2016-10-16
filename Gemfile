@@ -15,3 +15,4 @@ gem 'middleman-compass', '>= 4.0.0'
 gem 'middleman-deploy', github: 'middleman-contrib/middleman-deploy', branch: 'master'
 gem "middleman-minify-html"
 gem 'middleman-google-analytics', '~> 2.1'
+gem 'middleman-search_engine_sitemap'
