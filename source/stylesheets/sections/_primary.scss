@@ -1,14 +1,16 @@
 
 .ab-primary-section {
     position: relative;
-    height: 800px;
+    height: 600px;
     background-color: #333;
     color: #fff;
     width: auto;
     // background-color: #f3f3f3;
-    // background: url('images/slide01.jpg') center 30% no-repeat;
-    // background-size: cover;
+    background: url('/images/primary.jpg') center top no-repeat;
+    background-size: cover;
+
   }
+
 
   .ab-primary-slogan {
     font-size: 60px;
@@ -16,13 +18,15 @@
   }
 
   .ab-primary-sub-slogan {
+    max-width: 800px;
+    margin: 0 auto;
     font-size: 21px;
     padding-top: 24px;
   }
 
   .ab-primary-offer {
     font-size: 21px;
-    padding-top: 400px;
+    padding-top: 300px;
   }
 
   /**** Laptop layout ****/

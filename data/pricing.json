@@ -5,15 +5,16 @@
         "price": 90,
         "strapline": "The essential maintenance & protection clean",
         "jobs": [
-          { "name": "Luxury Wash", "icon": "done" },
-          { "name": "Hand Wash", "icon": "done" },
-          { "name": "Wheels & Tyres cleaned", "icon": "done" },
+          { "name": "Luxury Wash using quality products", "icon": "done" },
+          { "name": "Hand Wash using safe methods", "icon": "done" },
+          { "name": "Wheels & tyres cleaned", "icon": "done" },
           { "name": "Paintwork & wheels decontaminated", "icon": "done" },
           { "name": "Exterior glass cleaned", "icon": "done" },
           { "name": "Door jambs cleaned and dried", "icon": "done" },
           { "name": "Tyres Dressed", "icon": "done" },
           { "name": "Paintwork sealant applied", "icon": "done" },
-          { "name": "Extras Available", "icon": "feedback" }
+          { "name": "Wheels sealed at extra cost", "icon": "plus_one" }
+
 
         ]
     },
@@ -23,10 +24,11 @@
       "strapline": "Paint decontamination and corrections",
       "jobs": [
         { "name": "All of the Bronze Work", "icon": "done_all" },
-        { "name": "Additional paintwork decontammination", "icon": "done" },
-        { "name": "One stage paint correction - minor imperfections", "icon": "done" },
+        { "name": "Additional paintwork decontamination using a clay bar", "icon": "done" },
+        { "name": "One stage paint correction to remove minor imperfections using a machine polisher", "icon": "done" },
         { "name": "Water repellent treatment of all exterior glass", "icon": "done" },
-        { "name": "Extras Available", "icon": "feedback" }
+        { "name": "Wheels protected at extra cost", "icon": "plus_one" }
+
 
       ]
     },
@@ -36,12 +38,12 @@
       "strapline": "Two stage correction and durable wax protection",
       "jobs": [
         { "name": "All of the Silver Package", "icon": "done_all" },
-        { "name": "Two stage paint correction - a finer paint finish", "icon": "add_circle" },
-        { "name": "Paintwork protected with wax - increasing durability", "icon": "add_circle" },
-        { "name": "Paintwork protection with a ceramic coating - Extra Cost", "icon": "plus_one" },
-        { "name": "Wheels protected with wax or ceramic coating - Extra Cost", "icon": "plus_one" },
+        { "name": "Two stage paint correction to provide a finer paint finish using a machine polisher", "icon": "done" },
+        { "name": "Paintwork protected with wax for increased durability", "icon": "done" },
+        { "name": "Paintwork can be protected  with a ceramic coating at extra cost", "icon": "plus_one" },
+        { "name": "Wheels protected with wax or ceramic coating at extra cost", "icon": "plus_one" }
 
-        { "name": "Extras Available", "icon": "feedback" }
+
 
       ]
 
