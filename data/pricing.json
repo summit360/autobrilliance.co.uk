@@ -23,7 +23,7 @@
       "price": 195,
       "strapline": "Paint decontamination and corrections",
       "jobs": [
-        { "name": "All of the Bronze Work", "icon": "done_all" },
+        { "name": "All of the Bronze Package", "icon": "done_all" },
         { "name": "Additional paintwork decontamination using a clay bar", "icon": "done" },
         { "name": "One stage paint correction to remove minor imperfections using a machine polisher", "icon": "done" },
         { "name": "Water repellent treatment of all exterior glass", "icon": "done" },
