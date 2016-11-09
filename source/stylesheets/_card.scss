@@ -57,3 +57,9 @@
     padding-top: 10px;
 }
 }
+@media(max-width: 980px) {
+  .ab-card-container .mdl-card__media {
+    min-height: 200px;
+    padding-top: 10px;
+}
+}

@@ -34,6 +34,8 @@ end
 #   end
 # end
 
+activate :directory_indexes
+
 activate :google_analytics do |ga|
   ga.tracking_id = 'UA-1372057-11' # Replace with your property ID.
   ga.development = false
