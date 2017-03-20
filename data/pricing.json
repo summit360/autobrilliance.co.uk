@@ -1,5 +1,5 @@
 {
-  "plans": [
+  "cars": [
   {
         "title": "Bronze ",
         "price": 90,
@@ -47,6 +47,21 @@
 
       ]
 
+    }
+
+  ],
+  "bikes": [
+  {
+        "title": "General ",
+        "price": 50,
+        "strapline": "The essential maintenance & protection clean",
+        "jobs": [
+          { "name": "Safe wash using quality products", "icon": "done" },
+          { "name": "Decontamination of all surfaces", "icon": "done" },
+          { "name": "Paint correction to remove swirls & minor scratches", "icon": "done" },
+          { "name": "ACF-50 Application", "icon": "done" },
+          { "name": "Application of sealants, waxes &amp; nano coatings for durable protection", "icon": "done" }
+        ]
     }
 
   ]
