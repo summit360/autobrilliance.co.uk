@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.autobrilliance.co.uk/offers/</loc>
-    <lastmod>2016-11-09T18:06:18+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://www.autobrilliance.co.uk/</loc>
-    <lastmod>2016-11-09T18:08:58+00:00</lastmod>
+    <loc>https://www.autobrilliance.co.uk/privacy/</loc>
+    <lastmod>2016-10-17T08:37:40+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -19,14 +13,20 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.autobrilliance.co.uk/googlec9c74fc0e30171ac/</loc>
-    <lastmod>2016-10-17T08:37:41+01:00</lastmod>
+    <loc>https://www.autobrilliance.co.uk/offers/</loc>
+    <lastmod>2017-03-11T12:10:27+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.autobrilliance.co.uk/privacy/</loc>
-    <lastmod>2016-10-17T08:37:41+01:00</lastmod>
+    <loc>https://www.autobrilliance.co.uk/</loc>
+    <lastmod>2016-11-09T18:08:58+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.autobrilliance.co.uk/googlec9c74fc0e30171ac/</loc>
+    <lastmod>2016-10-17T08:37:40+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
