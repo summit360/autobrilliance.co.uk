@@ -1,0 +1,59 @@
+---
+title: Pricing - Flexible and affordable | Vehicle Detailing ( Holmfirth, UK )
+---
+
+<a name="pricing"></a>
+<div class="ab-plans-section">
+  <div class="ab-plans-section-text  mdl-typography--text-center">
+    <div class="mdl-typography--font-light  mdl-typography--display-2-color-contrast">Pricing for everyone</div>
+    <p class="mdl-typography--font-light">I can tailor a bespoke care package for your needs.
+    </p>
+    <p> The possibilities are endless and may include part of a package, a single package or a combination of processes from each package.
+    </p>
+    <p>Contact me to arrange a free vehicle assessment &amp; to discuss your needs. </p>
+    <div class="mdl-grid ab-card-container">
+
+      <% data.pricing.plans.each do |p| %>
+      <div class="mdl-cell mdl-card mdl-shadow--4dp ab-card">
+
+        <div class="mdl-card__title">
+          <h2 class="mdl-typography--text-center mdl-card__title-text "><%= p.title %></h2>
+        </div>
+        <div class="mdl-card__media">
+          <div class="mdl-typography--text-center mdl-typography--display-3 mdl-typography--font-thin"><span class="mdl-typography--display-1 mdl-typography--font-thin">from</span> £<%= p.price %></div>
+          <p class="mdl-typography--headline mdl-typography--font-thin"><%= p.strapline %></p>
+        </div>
+
+        <div class="mdl-card__actions">
+
+          <a href="#contact">
+            <button class="ab-button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+              <i class="material-icons">call</i>
+            contact
+            </button>
+          </a>
+
+        </div>
+        <div class="mdl-card__supporting-text  mdl-typography--text-left">
+          <ul class="mdl-list">
+            <% p.jobs.each do |j| %>
+            <li class="mdl-list__item">
+              <span class="mdl-list__item-primary-content">
+                  <i class="material-icons mdl-list__item-icon"><%= j.icon %></i>
+                  <%= j.name %>
+                </span>
+            </li>
+            <% end %>
+          </ul>
+        </div>
+      </div>
+      <% end %>
+
+    </div>
+    <!-- <div class="mdl-typography--font-normal">A bespoke package can also be created and tailored to your car. Make contact now to discuss your specific requirements and book your free assessment.</div> -->
+  </div>
+
+
+</div>
+
+<%= partial "components/contact" %>

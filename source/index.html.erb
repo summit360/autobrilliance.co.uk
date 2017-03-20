@@ -24,7 +24,6 @@ title: Welcome to AutoBrilliance | Vehicle Detailing ( Holmfirth, UK )
   <div class="mdl-typography--font-light mdl-typography--display-2-color-contrast">Why Choose Auto Brilliance</div>
   <p class="mdl-typography--font-light">
     Committed to unrivaled customer care. Experience of new car preparation, paint correction and full restoration of the paintwork on any marque.
-
   </p>
   <p class="mdl-typography--font-light">
     Based around Holmfirth in Yorkshire, I provide automotive detailing services for individuals, professional and business.
@@ -33,31 +32,40 @@ title: Welcome to AutoBrilliance | Vehicle Detailing ( Holmfirth, UK )
 
   <div class="mdl-cell mdl-cell--4-col">
     <div class="mdl-typography--display-1-color-contrast">
-      <i class="fa fa-gift"></i><br/>
+      <i class="fa fa-car"></i><br/>
       New Car Preparation
-
     </div>
-
+  </div>
+  <div class="mdl-cell mdl-cell--4-col">
+    <div class="mdl-typography--display-1-color-contrast">
+      <i class="fa fa-motorcycle"></i><br/>
+      Motorcycle Preparation
+    </div>
+  </div>
+  <div class="mdl-cell mdl-cell--4-col">
+    <div class="mdl-typography--display-1-color-contrast">
+      <i class="fa fa-search"></i><br/>
+     Quality Detailing 
+    </div>
   </div>
   <div class="mdl-cell mdl-cell--4-col">
     <div class="mdl-typography--display-1-color-contrast">
       <i class="fa fa-adjust"></i><br/>
       Paintwork Correction
-
     </div>
-
   </div>
-  <div class="mdl-cell mdl-cell--4-col mdl-cell--2-offset-tablet">
+  <div class="mdl-cell mdl-cell--4-col">
     <div class="mdl-typography--display-1-color-contrast">
       <i class="fa fa-diamond"></i><br/>
       Paintwork Restoration
-
     </div>
   </div>
-
+  <div class="mdl-cell mdl-cell--4-col">
+    <div class="mdl-typography--display-1-color-contrast">
+      <i class="fa fa-edit"></i><br/>
+     Bespoke Work 
+    </div>
   </div>
-
-
   </div>
 
 
@@ -82,79 +90,58 @@ title: Welcome to AutoBrilliance | Vehicle Detailing ( Holmfirth, UK )
 
 <a name="testimonial"></a>
 <div class="ab-testimonials-section">
-            <div class="ab-testimonials-section-text">
-              <div class="mdl-typography--font-light mdl-typography--display-2-color-contrast">Testimonials</div>
-              <p class="mdl-typography--font-light">
-                <i class="fa fa-quote-left"></i>
+    <div class="ab-testimonials-section-text">
+        <div class="mdl-typography--font-light mdl-typography--display-2-color-contrast">Testimonials</div>
+        <p class="mdl-typography--font-light">
+            <i class="fa fa-quote-left"></i>
                 I can't thank David enough, my car looks fantastic, like new! <br/>I'd planned on selling my car but having the car detailed by David made me fall in love with it again and gave it a new lease of life. I can't recommend David highly enough for his professionalism, passion and quality of service.<i class="fa fa-quote-right"></i>
                 <br>
                 <a href="http://www.vjw-holistics.co.uk" target="_new" class="ab-link mdl-typography--font-light">Vicky - VJW Holistic Therapies, Lindley, Huddersfield</a>
-              </p>
-              <p class="mdl-typography--font-light">
-                <i class="fa fa-quote-left"></i>
+        </p>
+        <p class="mdl-typography--font-light">
+            <i class="fa fa-quote-left"></i>
                 Simply put, my feedback is "absolutely brilliant".<br/> I felt informed and involved in the process of deciding what was going to be done to our car and David's suggestions were tailored to my needs. I'm looking forward to getting the same done to our new car when it lands.
-                <i class="fa fa-quote-right"></i>
-                <br>
-                <a href="#" target="_new" class="ab-link mdl-typography--font-light">Malcolm - Briskoda Community Forum</a>
-              </p>
-            </div>
-            <div class="ab-testimonials-section-image"></div>
-
-</div>
-
-
-<a name="pricing"></a>
-<div class="ab-plans-section">
-  <div class="ab-plans-section-text  mdl-typography--text-center">
-    <div class="mdl-typography--font-light  mdl-typography--display-2-color-contrast">Pricing for everyone</div>
-    <p class="mdl-typography--font-light">I can tailor a bespoke care package for your needs.
-    </p>
-    <p> The possibilities are endless and may include part of a package, a single package or a combination of processes from each package.
-    </p>
-    <p>Contact me to arrange a free vehicle assessment &amp; to discuss your needs. </p>
-    <div class="mdl-grid ab-card-container">
-
-      <% data.pricing.plans.each do |p| %>
-      <div class="mdl-cell mdl-card mdl-shadow--4dp ab-card">
-
-        <div class="mdl-card__title">
-          <h2 class="mdl-typography--text-center mdl-card__title-text "><%= p.title %></h2>
-        </div>
-        <div class="mdl-card__media">
-          <div class="mdl-typography--text-center mdl-typography--display-3 mdl-typography--font-thin"><span class="mdl-typography--display-1 mdl-typography--font-thin">from</span> £<%= p.price %></div>
-          <p class="mdl-typography--headline mdl-typography--font-thin"><%= p.strapline %></p>
-        </div>
-
-        <div class="mdl-card__actions">
-
-          <a href="#contact">
-            <button class="ab-button mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
-              <i class="material-icons">call</i>
-            contact
-            </button>
-          </a>
-
-        </div>
-        <div class="mdl-card__supporting-text  mdl-typography--text-left">
-          <ul class="mdl-list">
-            <% p.jobs.each do |j| %>
-            <li class="mdl-list__item">
-              <span class="mdl-list__item-primary-content">
-                  <i class="material-icons mdl-list__item-icon"><%= j.icon %></i>
-                  <%= j.name %>
-                </span>
-            </li>
-            <% end %>
-          </ul>
-        </div>
-      </div>
-      <% end %>
-
+            <i class="fa fa-quote-right"></i>
+            <br>
+            <a href="#" target="_new" class="ab-link mdl-typography--font-light">Malcolm - Briskoda Community Forum</a>
+        </p>
     </div>
-    <!-- <div class="mdl-typography--font-normal">A bespoke package can also be created and tailored to your car. Make contact now to discuss your specific requirements and book your free assessment.</div> -->
-  </div>
-
-
+   <div class="ab-testimonials-section-image"></div>
 </div>
+
+<div class="ab-plans-section mdl-typography--text-center">
+
+  <div class="mdl-typography--font-light mdl-typography--display-2-color-contrast">Affordable Protection &amp; Quality</div>
+  <div class="mdl-grid">
+      <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet">
+          <div class="mdl-typography--display-1-color-contrast">
+              <i class="fa fa-car"></i><br/>
+            Cars from &pound; 90
+<br/>
+        <a href="/pricing#cars">
+          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+            <i class="material-icons">info</i>
+More Info
+          </button>
+        </a>
+          </div>
+      </div>
+      <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet">
+          <div class="mdl-typography--display-1-color-contrast">
+              <i class="fa fa-motorcycle"></i><br/>
+              Motorbikes from &pound; 50<br/>
+        <a href="/pricing#motorbikes">
+          <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+            <i class="material-icons">info</i>
+More Info
+          </button>
+        </a>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
 
 <%= partial "components/contact" %>
