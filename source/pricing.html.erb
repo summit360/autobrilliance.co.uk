@@ -14,29 +14,28 @@ title: Pricing - Flexible and affordable | Vehicle Detailing ( Holmfirth, UK )
 
     <div class="mdl-grid">
         <div class="mdl-cell mdl-cell--4-col mdl-cell--3-col-desktop mdl-cell--3-offset-desktop mdl-cell--4-col-tablet">
-            <div class="mdl-typography--display-1-color-contrast">
+
 
 
           <a href="#cars">
             <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-
               <i class="fa fa-car fa-lg fa-fw"></i>
-  Car Pricing
+              Car Pricing
             </button>
           </a>
-            </div>
+
         </div>
         <div class="mdl-cell mdl-cell--6-col mdl-cell--3-col-desktop mdl-cell--4-col-tablet">
-            <div class="mdl-typography--display-1-color-contrast">
+
 
           <a href="#motorbikes">
-            <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+              <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
 
               <i class="fa fa-motorcycle fa-lg fa-fw"></i>
   Motorbike Pricing
             </button>
           </a>
-            </div>
+            
         </div>
     </div>
 
@@ -100,7 +99,9 @@ title: Pricing - Flexible and affordable | Vehicle Detailing ( Holmfirth, UK )
           <h2 class="mdl-typography--text-center mdl-card__title-text "><i class="fa fa-motorcycle">&nbsp;</i><%= p.title %></h2>
         </div>
         <div class="mdl-card__media">
+          <% if p.price > 0 %>
           <div class="mdl-typography--text-center mdl-typography--display-3 mdl-typography--font-thin"><span class="mdl-typography--display-1 mdl-typography--font-thin">from</span> £<%= p.price %></div>
+          <% end %>
           <p class="mdl-typography--headline mdl-typography--font-thin"><%= p.strapline %></p>
         </div>
 

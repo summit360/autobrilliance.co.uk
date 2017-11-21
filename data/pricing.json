@@ -62,6 +62,23 @@
           { "name": "ACF-50 Application", "icon": "done" },
           { "name": "Application of sealants, waxes &amp; nano coatings for durable protection", "icon": "done" }
         ]
+    },
+    {
+        "title": "Bolt-on",
+        "price": 10,
+        "strapline": "Essential extras for your motorbike",
+        "jobs": [
+          { "name": "ACF-50 application £30", "icon": "done" },
+          { "name": "Polymer sealant £10", "icon": "done" },
+          { "name": "Durable Wax £30", "icon": "done" },
+          { "name": "Ceramic Coating £70", "icon": "done" },
+          { "name": "Machine polish of paintwork £50", "icon": "done" },
+          { "name": "Screen sealed £10", "icon": "done" },
+          { "name": "Seat cleaned & protected £10", "icon": "done" },
+          { "name": "End can polished £10", "icon": "done" },
+          { "name": "Luggage cleaned & protected from £10", "icon": "done" },
+          { "name": "Helmet exterior cleaned & protected from £20", "icon": "done" }
+        ]
     }
 
   ]
